@@ -1,14 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "currency":"USD",
+   "schema":{
+      "fields":[
+         "gptSlot",
+         "mediaType"
+      ]
+   },
+   "values":[
+      {
+         "key":"/1111/homepage/top-rect|banner",
+         "floor":0.80
+      },
+      {
+         "key":"/1111/homepage/top-rect|video",
+         "floor":1.20
+      },
+      {
+         "key":"/1111/homepage/left-nav|banner",
+         "floor":0.90
+      },
+      {
+         "key":"/1111/tech/left-nav|banner",
+         "floor":1.50
+      }
+   ],
+   "default":0.75
 }
