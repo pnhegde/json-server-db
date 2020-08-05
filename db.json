@@ -1,4 +1,4 @@
-{
+{"floor": {
    "currency":"USD",
    "schema":{
       "fields":[
@@ -25,4 +25,5 @@
       }
    ],
    "default":0.75
+}
 }
